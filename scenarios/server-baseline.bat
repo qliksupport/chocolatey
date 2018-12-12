@@ -1,0 +1,1 @@
+powershell choco install git vscode googlechrome

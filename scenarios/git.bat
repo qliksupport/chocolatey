@@ -1,0 +1,1 @@
+powershell ..\chocolatey-install-packages.ps1 git
