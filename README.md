@@ -1,12 +1,12 @@
 Chocolatey - Windows Software Management Automation
 ===
 
-Chocolatey is a package manager for Windows (like apt-get or yum but for Windows). It was designed to be a decentralized framework for quickly installing applications and tools that you need. Package manager and software packages can be installed as described in Chocolatey website. 
+Chocolatey is a package manager for Windows (like apt-get or yum in Linux). It was designed to be a decentralized framework for quickly installing applications and tools that you need. Package manager and software packages can be installed as described in Chocolatey website. 
 
 * [Chocolatey Installation](https://chocolatey.org/install)
 * [Chocolatey Packages](https://chocolatey.org/packages)
 
-The pruspose of this script is to simplify and automate the package installation, by installing Chocolatey package manager and any desired package in one go throuhg a self-elevated PowerShell prompt.
+The purpose of this script is to simplify and automate the package installation, by installing Chocolatey package manager and any desired package in one go through a self-elevated PowerShell prompt.
 
 ```
 chocolatey-install-packages.ps1 package 
@@ -18,8 +18,8 @@ chocolatey-install-packages.ps1 package
 ## Install Packages Automatically
 
 1. Open PowerShell prompt  
-1. Run script `.\chocolatey-install-packages.ps1` followed by packages to install
-1. Script will automatically install Chocolatey and defined packages
+1. Run script `.\chocolatey-install-packages.ps1` followed by space sepaarted list of packages to install
+1. Script will automatically install Chocolatey and the listed packages
 
 For example the below command will install git, VS Code and Google Chrome on the machine where it is executed. See [Chocolatey Packages](https://chocolatey.org/packages) for more available packages.
 
